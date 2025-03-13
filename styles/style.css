@@ -3,6 +3,9 @@
     font-weight: 400;
     font-style: normal;
   }
+  body{
+    overflow-x: hidden;
+  }
 
    /* Frame 2 */
   nav{   
@@ -220,4 +223,34 @@ margin-top: 35px;
 }
 .yellow{
   background: rgb(255, 194, 57);
+}
+
+/* frame 5 */
+.frame-5{
+  max-width: 970px;
+  height: 150px;
+  margin-left: 150px;
+  margin-top: 22px;
+  padding: 0px 3px 25px 12px;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 12px;
+background: rgb(255, 255, 255);
+}
+.frame-5 p{
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-top: 30px;
+}
+.mark{
+  position:absolute;
+font-size: 80px;
+color: rgba(14, 14, 14, 0.3); 
+}
+.dr{
+  font-size: 14px;
+}
+.frame-5 .rank{
+  margin-top: 5px;
 }
