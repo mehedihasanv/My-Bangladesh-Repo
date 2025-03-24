@@ -6,22 +6,24 @@
   body{
     overflow-x: hidden;
    background-color:  rgb(245, 245, 245);
-   margin-left: -12px;
+   margin-left:-12px;
   }
   main{
-    margin-left:18px;   
+    margin-left:160px;   
   }
+  
 
    /* Frame 2 */
   nav{   
-  width: 1280px;
+ max-width: 1024px;
   height: 75px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 18px 126px 18px 126px;
+  padding: 15px 126px 15px 126px;
   margin-bottom: 20px;
-  background: rgb(245, 245, 245);
+  background-color:  rgb(245, 245, 245);
+  
  } 
 
  nav ul{
@@ -42,10 +44,10 @@
 
  nav button{
   color: rgb(0, 106, 80);
-  font-size: 13.5px;
+  font-size: 11px;
   font-weight: 600;
-  border-radius: 8px;
-  padding: 11.25px 22.5px 11.25px 22.5px;
+  border-radius: 6px;
+  padding: 8px 22px 8px 22px;
   border: 1px solid rgb(0, 106, 80);
   
  }
@@ -62,7 +64,6 @@
   background: rgb(198, 228, 214); 
   margin-top: 20px; 
   padding: 20px;
-  margin: 20px 140px 0 150px;
   overflow: hidden;
 }
 
@@ -104,7 +105,7 @@
   border-radius: 6px;
   gap: 36;
   padding: 12.75px 25.5px 12.75px 25.5px;
-  background: rgb(0, 106, 80);
+ background: rgb(0, 106, 80);
   border: none;
 
 }
@@ -112,7 +113,6 @@
 
 .main-title{
   font-size:30px;
-  margin-left: 150px;
   margin-top: 60px;
   
 }
@@ -120,7 +120,6 @@
   display:flex;
   max-width:935px ;
   height: 210px;
-  margin-left: 150px;
   gap: 9px;
 }
  .pillar{
@@ -154,8 +153,6 @@
  /* frame 4 */
 
  .vision-top{
- 
-  margin-left: 150px;
   margin-top: 55px;
  }
  .vision-top h1{
@@ -173,7 +170,6 @@
   display: flex;
   max-width:990px ;
   height: 300px;
-  margin-left: 150px;
   margin-top: 25px;
   gap:13.5px;
   
@@ -234,7 +230,6 @@
 .frame-5{
   max-width: 970px;
   height: 150px;
-  margin-left: 150px;
   margin-top: 22px;
   padding: 5px 3px 25px 12px;
   border: 1px solid rgba(14, 14, 14, 0.15);
@@ -264,13 +259,12 @@
 .table-container{
   max-width: 942px;
   height: 230px;
-  margin-left: 150px;
+  margin-left: px;
   border-radius: 12px;
   padding: 25px;
   background: rgb(255, 255, 255);
 }
 .frame-6 h4{
-  margin-left: 150px;
   font-size:30px;
 }
 .table{
@@ -302,9 +296,6 @@ td select{
 
 /* .frame-7 */
 
-.frame-7-title{
-  margin-left: 150px;
-}
 .frame-7-title h1{
   font-size:30px;
   font-weight: 700;
@@ -323,7 +314,7 @@ td select{
   height: 230px;
   justify-content: center;
   align-items: center;
-  margin-left: 150px;
+  margin-left: px;
   border-radius: 12px;
   padding: 30px;
   margin-top: 15px;
@@ -373,22 +364,22 @@ td select{
 
 /* frame-8 */
 .frame-8{
-  margin-left: 100px;
-  
+  padding:10px 100px 10px 0px ;
 }
+
 .box-container{
   display: flex;
   position: static;
   gap: 20px;
   justify-content: center;
   align-items: center;
+  padding-left: 0;
 
 }
 .box-container .green{
   background: rgb(198, 228, 214);
 }
 .box-container div{
-  max-width:px;
   height: 96px;
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
@@ -410,7 +401,7 @@ td select{
 .frame-8 p{
   color: rgba(14, 14, 14, 0.8);
   max-width: 935px;
-  margin-left: 90px;
+  margin-left:50px ;
   text-align: center;
   font-size: 10px;
   font-weight: 400;
@@ -424,7 +415,7 @@ td select{
 }
  
 .box-btn button{
-  margin-left: 522px;
+  margin-left:460px ;
   margin-top: 15px;
   height: 30px;
   font-size:12px ;
@@ -433,4 +424,73 @@ td select{
   border-radius: 6px;
   background: rgb(0, 106, 80);
   color: rgb(255, 255, 255);
+}
+
+/* frame-9 */
+
+.frame-9{
+  border-radius: 12px;
+  max-width: 890px;
+  margin-top: 60px;
+  background: rgb(198, 228, 214);
+  padding: 40px 55px 40px 55px;
+}
+
+.frame-9 h1{
+  text-align: center;
+  font-size:30px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.frame-9 p{
+  text-align: center;
+  margin-top: 5px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  color: rgba(14, 14, 14, 0.8);
+}
+
+.email-container{
+  height: 30px;
+  display: flex;
+  border: none;
+  margin-left: 325px;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.my-email{
+  border-right: none;
+  border: none;
+}
+.sub-btn{
+  border: none;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+} 
+
+/* .frame-10 */
+.frame-10{
+  width: 1280px;
+  height: 150px;
+  padding: 20px 20px;
+  background: rgb(255, 255, 255);
+  margin-top: 80px;
+}
+
+.frame-10 h3{
+  font-size:30px;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(14, 14, 14);
+}
+.social-icon{
+  display: flex;
+  height: 10px;
+  margin-left:587px ;
+  gap: 15px;
 }
