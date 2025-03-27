@@ -494,3 +494,28 @@ td select{
   margin-left:587px ;
   gap: 15px;
 }
+/* hover  */
+
+.vision-box .vision-container div:hover{
+  background-color:gray;
+  cursor: pointer;
+}
+.vision-box .vision-container button:hover{
+  background-color:blanchedalmond;
+  color: black;
+  transform: scale(1.1);
+}
+.frame-7 .report-container .report button:hover{
+  background-color:blanchedalmond;
+  color: black;
+  transform: scale(1.1);
+}
+.frame-8 .box-container div:hover{
+  background-color:gray;
+  cursor: pointer;
+}
+.frame-8 button:hover{
+  background-color:blanchedalmond;
+  color: black;
+  transform: scale(1.1);
+}
